@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 
 browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
@@ -12,3 +13,4 @@ server->browser: main.js
 note left of browser: main.js gets interpreted and it requests data.json
 browser->server: https://studies.cs.helsinki.fi/exampleapp/data.json
 server->browser: data.json
+```
